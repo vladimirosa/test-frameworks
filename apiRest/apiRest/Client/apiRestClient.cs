@@ -9,17 +9,17 @@ using System.Configuration;
 
 namespace testFrameworks.apiRest.Client
 {
-    class apiRestClient<T> : IWebApiClient<T> where T : IResource
+    class ApiRestClient<T> : IWebApiClient<T> where T : IResource
     {
         private HttpClient httpClientField;
         private HttpClientConfig configurationField;
         
-        public apiRestClient(HttpClientConfig configuration)
+        public ApiRestClient(HttpClientConfig configuration)
         {
             this.Configuration = configuration;
         }
 
-        public apiRestClient()
+        public ApiRestClient()
         {
             var appSettings = ConfigurationManager.AppSettings;
             
