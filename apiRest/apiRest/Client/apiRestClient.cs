@@ -9,7 +9,7 @@ using System.Configuration;
 
 namespace testFrameworks.apiRest.Client
 {
-    class ApiRestClient<T> : IWebApiClient<T> where T : IResource
+    public class ApiRestClient<T> : IWebApiClient<T> where T : IResource
     {
         private HttpClient httpClientField;
         private HttpClientConfig configurationField;

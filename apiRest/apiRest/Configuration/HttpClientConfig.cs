@@ -1,6 +1,6 @@
 ﻿namespace testFrameworks.apiRest.Configuration
 {
-    class HttpClientConfig
+    public class HttpClientConfig
     {
         public string BaseUri { get; set; }
         public string RelativeUri { get; set; }
