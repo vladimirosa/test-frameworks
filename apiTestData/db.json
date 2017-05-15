@@ -1,0 +1,14 @@
+{
+  "user": [
+    { "id": 1, "name": "Pretty User Name", "userProfile": {"type": "admin"} },
+    { "id": 2, "name": "Another User", "userProfile": { "type": "regular"} }
+  ],
+  "app": [
+    { "id": 1, "name": "Great App" },
+    { "id": 2, "name": "Another App"}
+  ],
+  "userProfile": [
+    {"id":1, "type": "admin" },
+    {"id":2, "type": "regular" }
+    ]
+}
